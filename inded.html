@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="desgin.css" rel="stylesheet">
+        <meta name="author" content="RG">
+        <meta charset="utf-8">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h3> Calculator</h3>
+        </header>
+            <form name="Calculator" action='' method='GET'>
+                            <fieldset>
+                    <legend>My calculator</legend>
+                    <textarea name="output" id="sumplace" rows="3" cols="20" ></textarea>
+                </fieldset>
+                <fieldset>
+                    <legend>Input</legend>
+                    <label>Operands:</label>
+                    <input type="text" id="inp1" name="fname">
+                    <input type="text" id="inp2" name="fname">
+                    <label>Operator:</label>
+                    <input type="button" name="submit" value="+" onclick="addValue()">  
+                    <input type="button" name="submit" value="x" onclick="mulValue()">
+                    <input type="button" name="submit" value="-" onclick="minValue()">
+                    <input type="button" name="submit" value="clear" onclick="clearValue()">
+                </fieldset>
+            </form>
+    </body>
+</html>
